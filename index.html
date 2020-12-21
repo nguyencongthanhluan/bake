@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="header__logo">Bake</a>
+      <nav class="header__nav">
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Serive</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- carousel -->
+    <section id="carousel">
+      <div class="carousel__content">
+        <h1>Best Bake Here</h1>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <button>Lear more</button>
+      </div>
+    </section>
+    <!-- intro -->
+    <section id="intro">
+      <div class="intro__item intro__tradition">
+        <div>
+          <h2>Tradition</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+      <div class="intro__item intro__img_1">
+        <img src="./images/ab1.jpg" alt="" />
+      </div>
+      <div class="intro__item intro__creativity">
+        <div>
+          <h2>Creativity</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+      <div class="intro__item intro__things">
+        <div>
+          <h2>What We Bake Best For You</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+      <div class="intro__item intro__quality">
+        <img src="./images/ab2.jpg" alt="" />
+      </div>
+      <div class="intro__item intro__quality">
+        <div>
+          <h2>Quality</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+      <div class="intro__item">
+        <img src="./images/ab3.jpg" alt="" />
+      </div>
+      <div class="intro__item intro__tasty">
+        <div>
+          <h2>Tasty Cakes</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+      <div class="intro__item intro__img_4">
+        <img src="./images/ab4.jpg" alt="" />
+      </div>
+    </section>
+    <!-- count -->
+    <section id="count">
+      <div>
+        <p class="counter">3500</p>
+        <h1>Coffee</h1>
+      </div>
+      <div>
+        <p class="counter">650</p>
+        <h1>Happy Client</h1>
+      </div>
+      <div>
+        <p class="counter">10</p>
+        <h1>Experience</h1>
+      </div>
+      <div>
+        <p class="counter">1010</p>
+        <h1>Expert Worker</h1>
+      </div>
+    </section>
+    <!-- service -->
+    <section id="service">
+      <h1>OUR SERVICE</h1>
+      <div class="service__content">
+        <div class="service__item">
+          <i class="fa fa-adjust" aria-hidden="true"></i>
+          <h3>Tasty Cakes</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div class="service__item">
+          <i class="fa fa-adjust" aria-hidden="true"></i>
+          <h3>Creativity</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div class="service__item">
+          <i class="fa fa-adjust" aria-hidden="true"></i>
+          <h3>Tradition</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div class="service__item">
+          <i class="fa fa-adjust" aria-hidden="true"></i>
+          <h3>Quality</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </section>
+    <!-- Our Gallery -->
+    <section id="gallery">
+      <h1>OUR GALLERY</h1>
+      <div class="gallery__content">
+        <div class="gallery__item gallery_1">
+          <img src="./images/g1.jpg" alt="" />
+          <div class="gallery__text">
+            <h3>Our Gallery</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".counter").countUp();
+      });
+    </script>
+  </body>
+</html>
